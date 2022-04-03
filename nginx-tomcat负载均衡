@@ -1,0 +1,5 @@
+import requests
+url = 'http://localhost'
+for i in range(1,10):
+    response=requests.get(url)
+    print(response.text)
